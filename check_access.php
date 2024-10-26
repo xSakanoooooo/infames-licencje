@@ -1,5 +1,5 @@
 <?php
-$allowed_ips = ['localhost']; // Zmień na IP swojego serwera FiveM
+$allowed_ips = ['83.31.137.53']; // Zmień na IP swojego serwera FiveM
 
 if (!in_array($_SERVER['REMOTE_ADDR'], $allowed_ips)) {
     header('HTTP/1.0 403 Forbidden');
